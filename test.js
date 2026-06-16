@@ -3,7 +3,7 @@
 const experess = require('express');
 const http = require('http');
 
-const app = experess();
+
 app.get('/', (req, res) => res.send('Hello from Express App'));
 
 const server = app.listen(5000, () => {
